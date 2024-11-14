@@ -3,8 +3,8 @@ import { ChevronDown, Menu } from "lucide-react";
 
 export default function Navbar() {
   return (
-    <nav className="bg-white/90 shadow-sm border-b-2 sticky top-0">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="bg-white shadow-sm border-b-2 sticky top-0 ">
+      <div className="bg-white max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0 flex items-center">

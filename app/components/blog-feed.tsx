@@ -19,7 +19,7 @@ const blogPosts: BlogPost[] = [
       "A single building occupies the hillside at Hillview, a historic 240-hectare former sheep farm on Tasmania's Bruny Island...",
     image: "/placeholder.svg?height=200&width=300",
     categories: ["Design", "Architecture"],
-    link: "#",
+    link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ0RoOzaak9XjbGB-Y2tcEIJNTfdHDZ1yTuA&s",
   },
   {
     id: 2,
