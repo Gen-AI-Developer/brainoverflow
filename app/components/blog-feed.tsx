@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { MdOutlineArrowOutward } from "react-icons/md";
-
+import blogimage from "@/public/thought-catalog.jpg";
 type BlogPost = {
   id: number;
   title: string;
@@ -19,7 +19,7 @@ const blogPosts: BlogPost[] = [
       "A single building occupies the hillside at Hillview, a historic 240-hectare former sheep farm on Tasmania's Bruny Island...",
     image: "/placeholder.svg?height=200&width=300",
     categories: ["Design", "Architecture"],
-    link: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ0RoOzaak9XjbGB-Y2tcEIJNTfdHDZ1yTuA&s",
+    link: blogimage.src,
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const blogPosts: BlogPost[] = [
       "We all like to think of ourselves in certain ways. We consider ourselves to be truthful, hard-working, health-conscious...",
     image: "/placeholder.svg?height=200&width=300",
     categories: ["Product", "Research", "Frameworks"],
-    link: "#",
+    link: blogimage.src,
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const blogPosts: BlogPost[] = [
       "Remote working might not only be feasible but beneficial. Stanford University found that remote employees were 13...",
     image: "/placeholder.svg?height=200&width=300",
     categories: ["Design", "Research"],
-    link: "#",
+    link: blogimage.src,
   },
   {
     id: 4,
@@ -46,7 +46,7 @@ const blogPosts: BlogPost[] = [
       "The design industry is constantly evolving, but good design is timeless. Learn how to quickly develop an eye for UI...",
     image: "/placeholder.svg?height=200&width=300",
     categories: ["Design", "Tools", "Research"],
-    link: "#",
+    link: blogimage.src,
   },
   {
     id: 5,
@@ -55,7 +55,7 @@ const blogPosts: BlogPost[] = [
       "Jasmin Chew is a 23-year-old photographer and photo editor from Toronto, Ontario. She has worked with Spotify...",
     image: "/placeholder.svg?height=200&width=300",
     categories: ["Design", "Research", "Interview"],
-    link: "#",
+    link: blogimage.src,
   },
   {
     id: 6,
@@ -64,7 +64,7 @@ const blogPosts: BlogPost[] = [
       "Frankie Sullivan explores the 'Design Dilemma' – what happens when best practice UX design clashes with creative...",
     image: "/placeholder.svg?height=200&width=300",
     categories: ["Design", "Theory", "Research"],
-    link: "#",
+    link: blogimage.src,
   },
   {
     id: 7,
@@ -73,7 +73,7 @@ const blogPosts: BlogPost[] = [
       "We sat down with London's fast-growing brand and product design studio, Makr & Co. to find out how they've used Untitled UI to 2x their revenue.",
     image: "/placeholder.svg?height=200&width=300",
     categories: ["Design", "Research", "Interview"],
-    link: "#",
+    link: blogimage.src,
   },
   {
     id: 8,
@@ -82,7 +82,7 @@ const blogPosts: BlogPost[] = [
       '"I began to notice that there was a sharp contrast between well-made, crafted products and poorly made ones, and...',
     image: "/placeholder.svg?height=200&width=300",
     categories: ["Product", "Research", "Frameworks"],
-    link: "#",
+    link: blogimage.src,
   },
   {
     id: 9,
@@ -91,7 +91,7 @@ const blogPosts: BlogPost[] = [
       "Starting a business with your spouse or significant other is an exciting but delicate process and requires a great deal...",
     image: "/placeholder.svg?height=200&width=300",
     categories: ["Design", "Research"],
-    link: "#",
+    link: blogimage.src,
   },
 ];
 
